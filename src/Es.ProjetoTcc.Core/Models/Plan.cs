@@ -12,8 +12,7 @@ namespace Es.ProjetoTcc.Models
         public DateTime CreationDate { get; set; }
         public decimal ValuePlan { get; set; }
 
-        public int CustomerId { get; set; }
-        public ICollection<Customer> Customers { get; set; }
+        public virtual ICollection<Customer> Customers { get; set; }
 
     }
 }

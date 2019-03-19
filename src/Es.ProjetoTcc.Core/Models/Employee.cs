@@ -1,5 +1,4 @@
 ﻿using Abp.Domain.Entities.Auditing;
-using System;
 
 namespace Es.ProjetoTcc.Models
 {
